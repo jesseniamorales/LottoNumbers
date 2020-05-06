@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+html {
+    font-size: 16px;
+  }
+  
+body {
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }
+
+h1 {
+  color: rgb(0, 158, 135);
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  color: rgb(255, 145, 0);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.lottogames div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    grid-area: 1 / 1 / 2 / 3;
+    }
+
+a {
+  color: rgb(224,18,18)
+}
+a:hover {
+  background-color: rgb(0, 158, 135);
+}
+
+img { 
+   border: 3px solid #000000;
+   margin: 10px;
+}
+
+.divContainer div{
+    display:inline-block;
+    text-align: center;
+    line-height: 100px;
+
+}
+
+.num {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border: 2px solid #000000;
+    background: rgb(255, 145, 0);
+    margin: 10px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.pball {    width:100px;
+  height:100px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  background: rgb(224,18,18);
+  margin: 10px;
+  font-weight: bold;
+  font-size: 2rem;
+}
